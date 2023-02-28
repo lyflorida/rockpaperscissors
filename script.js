@@ -18,7 +18,7 @@ function getUserInput() {
     return playerChoice;
 }
 
-// Play a game of several rounds that ends when either the computer or player reaches 5 points
+// Play a game of several rounds (playRound) that ends when either computer or player reaches 5 points
 // Keep track of score each round
 
 function game() {
@@ -61,7 +61,7 @@ function playRound(playerChoice, computerChoice) {
     }
 }
 
-// Alert who the winner is at the end of the game
+// Announce who the winner is at the end of the game
 
 function alertWinner() {
     if (playerScore === 5) {
