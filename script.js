@@ -1,4 +1,4 @@
-let greeting = alert("Welcome! Please open up the console to proceed with the game.")
+let greeting = alert("Welcome! Please ensure the console is open before playing. If you do not see a dashed line at the top of the console after clicking the 'ok' button, refresh the page.")
 
 let playerScore = 0
 let computerScore = 0
@@ -17,6 +17,9 @@ function getUserInput() {
     
     return playerChoice;
 }
+
+// NOTE: What if player clicks cancel instead of entering/pressing ok? I want to prompt: "Are you sure you want to quit now?" 
+// If yes, continue game, if no, end game and display current scores. Console.log("Thanks for playing.")
 
 // Play a game of several rounds (playRound) that ends when either computer or player reaches 5 points
 // Keep track of score each round
